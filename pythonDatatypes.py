@@ -11,9 +11,10 @@ def fun():
 
 """string datatypes""" 
 string1 = "Python" #a string is a sequence of characters it is immutable
-print(string1)
+print(string1) #can print multiple by using * ex *5
 # string1[3] = "h" #string does not have assignments
 
 import keyword
 string =  "python programming"
-print(keyword.iskeyword(string))
+print(string[0:4:-1]) #string slicing [start:end:step]
+print(keyword.iskeyword(string)) 
