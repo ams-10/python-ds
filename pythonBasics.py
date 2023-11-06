@@ -16,3 +16,10 @@ print('\n')
 
 print(chr(35646)) #get an ascii character
 print(ord("😂")) #get the ascii value of a character
+
+
+set1 = {} #empty braces will print dictionary type 
+print(type(set1))
+
+set1 = set() #empty set
+print(type(set1)) #sets cannot be duplicates because they are hashed 
