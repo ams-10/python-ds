@@ -1,7 +1,7 @@
 #operator is a special symbol which performs a specific task
 #operand the symbol on which the task is performed
 '''
-operators:  arithmetic {+=>ADDITION; SUBRACTION=> -; MULTIPLICATION => *;DIVISION => /; MODULO => % POWER => **; FLOORDIVISION => //}
+operators:  arithmetic {+=>ADDITION; SUBRACTION=> -; MULTIPLICATION => *;DIVISION => /; MODULO => % (gives remainder); POWER => **; FLOORDIVISION => //}
             assignment { }
             comparison/conditional 
             logical 
@@ -10,3 +10,5 @@ operators:  arithmetic {+=>ADDITION; SUBRACTION=> -; MULTIPLICATION => *;DIVISIO
 #NORMAL DIVISION give accurate values
 print(7.0//2)
 print(7//2)
+
+print()
