@@ -13,3 +13,7 @@ print(tup[1][-1])
 tup[1][-1] = "python programming"
 print(tup)
 print('\n')
+
+print(chr(35646)) #get an ascii character
+print(ord("😂")) #get the ascii value of a character
+print('\n')
