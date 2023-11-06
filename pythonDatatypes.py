@@ -18,3 +18,9 @@ import keyword
 string =  "python programming"
 print(string[0:4:-1]) #string slicing [start:end:step]
 print(keyword.iskeyword(string)) 
+
+set1 = {} #empty braces will print dictionary type 
+print(type(set1))
+
+set1 = set() #empty set
+print(type(set1))
