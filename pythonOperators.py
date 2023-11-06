@@ -12,4 +12,4 @@ operators:  arithmetic {+=>ADDITION; SUBRACTION=> -; MULTIPLICATION => *;DIVISIO
 print(7.0//2)
 print(7//2)
 
-#in used to check if an element is present in a sequence data type it returns true or false
+#in {membership operator} used to check if an element is present in a sequence data type it returns true or false
