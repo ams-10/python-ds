@@ -22,4 +22,10 @@ set1 = {} #empty braces will print dictionary type
 print(type(set1))
 
 set1 = set() #empty set
-print(type(set1)) #sets cannot be duplicates because they are hashed 
+print(type(set1)) #sets cannot be duplicates because they are hashed key 
+
+dict1={} #create an empty dictionary
+dict1 = {1:"python", 2:"java", "program":"Script"}
+print(dict1)
+
+#difference between none empty a position is holding none {no values} or may be empty
